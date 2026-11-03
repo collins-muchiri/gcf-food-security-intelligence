@@ -21,8 +21,8 @@ Last updated: 2026-10-24 (UTC) by Phase 0 audit session.
 ## Known-broken / not real
 
 1. README "Data Ingestion ✅ Operational" is not backed: FAOSTAT test never collected, CI red.
-2. 19 `.gitkeep`-only directories (notebooks, airflow/spark/streaming pipelines, k8s/terraform infra, model dirs) - theatre per D14; deletion scheduled P1.
-3. `tests/unit/test_sanity.py` (`assert 1==1`) - forbidden unfailable test.
+2. 19 `.gitkeep`-only directories (notebooks, airflow/spark/streaming pipelines, k8s/terraform infra, model dirs): theatre per D14; deletion scheduled P1.
+3. `tests/unit/test_sanity.py` (`assert 1==1`): forbidden unfailable test.
 4. Poetry pyproject with obsolete pins (langchain 0.0.208, pydantic v1), no lockfile.
 5. No data manifest, no licences recorded for any planned source.
 

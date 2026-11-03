@@ -8,11 +8,11 @@
 
 ## Licence
 
-- MIT (`LICENSE`, (c) 2026 GCF-SIP project name). Compatible with planned open data sources (FAOSTAT: CC-BY-NC-like FAO terms require checking per dataset; World Bank: CC-BY 4.0; CHIRPS: CC-BY 4.0; ERA5: Copernicus licence; EM-DAT: free for research with citation; ACLED: requires registration + licence agreement - flagged for P2 manifest work). A licences policy gate is scheduled for P1.
+- MIT (`LICENSE`, (c) 2026 GCF-SIP project name). Compatible with planned open data sources (FAOSTAT: CC-BY-NC-like FAO terms require checking per dataset; World Bank: CC-BY 4.0; CHIRPS: CC-BY 4.0; ERA5: Copernicus licence; EM-DAT: free for research with citation; ACLED: requires registration + licence agreement: flagged for P2 manifest work). A licences policy gate is scheduled for P1.
 
 ## Third-party code
 
-- No vendored upstream code detected. Declared dependencies (Poetry block) include obsolete pins: `langchain==0.0.208`, `pydantic ^1.10`. No lockfile is committed, so the declared stack has never been reproducibly installed (confirmed this session: audit installed a working subset instead - see docs/DECISIONS.md D-002).
+- No vendored upstream code detected. Declared dependencies (Poetry block) include obsolete pins: `langchain==0.0.208`, `pydantic ^1.10`. No lockfile is committed, so the declared stack has never been reproducibly installed (confirmed this session: audit installed a working subset instead: see docs/DECISIONS.md D-002).
 
 ## Stale branches
 
