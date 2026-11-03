@@ -1,4 +1,4 @@
-# SILENT_FAILURES.md - sweep dispositions (2026-10-25)
+# SILENT_FAILURES.md: sweep dispositions (2026-10-25)
 
 | Pattern class | Disposition |
 |---|---|
@@ -9,4 +9,4 @@
 | pytest.skip when pandera absent | REMOVED: pandera declared in [test] extra; the skip made the validation gate vacuous in every environment |
 | except-pass / bare except / suppress / soft_fail | 0 hits in src (rg sweep; ingestion retry loop logs failures into a failed_items list and reports it) |
 | broad except at boundaries | src/api/routes/ingest.py delegates to orchestrator; FastAPI returns 5xx on unhandled (no 500->200 conversion found) |
-| randomness/seeds | no seed-dependent logic in gated paths (rg seed/random_state: model scaffolding only, untested surface - modernisation issue) |
+| randomness/seeds | no seed-dependent logic in gated paths (rg seed/random_state: model scaffolding only, untested surface: modernisation issue) |
